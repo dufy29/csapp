@@ -31,3 +31,13 @@ int main(void){
 
     return 0;
 }
+
+/*
+dufy@MBP chap2 % gcc -o ./tmp/test ex-2.44_.c 
+dufy@MBP chap2 % ./tmp/test 
+case1: x=-2147483648, x*2=0
+case2: ux>-1: 0
+case3: x >y: 1
+       -x<-y: 0
+case4: x*x: -1794967296
+*/
